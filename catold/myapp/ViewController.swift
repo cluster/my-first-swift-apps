@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     @IBAction func button(sender: AnyObject) {
         println(text.text)
         var age = text.text.toInt()
+        
         age = age! * 7
        
         label.text = "your cat is : \(age!)"
